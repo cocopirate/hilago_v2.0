@@ -1,0 +1,37 @@
+﻿/* media */
+/* 横屏 */
+@media screen and (orientation:landscape){
+    
+}
+/* 竖屏 */
+@media screen and (orientation:portrait){
+    
+}
+/* 窗口宽度<960,设计宽度=768 */
+@media screen and (max-width:959px){
+    
+}
+/* 窗口宽度<768,设计宽度=640 */
+@media screen and (max-width:767px){
+    
+}
+/* 窗口宽度<640,设计宽度=480 */
+@media screen and (max-width:639px){
+    
+}
+/* 窗口宽度<375,设计宽度=350 */
+@media screen and (max-width:374px){
+    .pop .feature-desc{line-height: 1.6;font-size: 14px;padding: 20px 15px;}
+    .pop #figure1-1 h2{background-size: 20px;}
+	.pop #figure1-2 h2{background-size: 20px;}
+	.pop #figure1-3 h2{background-size: 20px;}
+	.pop #figure1-4 h2{background-size: 20px;}
+}
+/* windows UI 贴靠 */
+@media screen and (-ms-view-state:snapped){
+    
+}
+/* 打印 */
+@media print{
+    
+}
